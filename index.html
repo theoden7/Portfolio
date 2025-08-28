@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Theodor Östling</h1>
+    <p>Welcome to my portfolio website!</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+<div class="social-links">
+  <a href="https://www.linkedin.com/in/theodor-%C3%B6stling/?trk=opento_sprofile_details" target="_blank" class="linkedin">LinkedIn</a>
+  <a href="https://github.com/Theodenlll7" target="_blank" class="github">School GitHub</a>
+  <a href="hhttps://github.com/theoden7" target="_blank" class="github">Private GitHub</a>
+  <a href="https://studieinfo.liu.se/en/program/6cmen/4641#overview" target="_blank" class="education">Education</a>
+</div>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I’m Theodor Östling. I recently graduated from the Civilingenjörsprogram i Medieteknik, 
+        where I developed a strong foundation in technology, creativity, and problem-solving. 
+        Throughout my studies, I discovered a real passion for software development. 
+        I enjoy the process of turning ideas into working solutions that people can actually use.</p>
+
+  </section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+    <div class="project" data-project="1">
+        <img src="images/Bachelor/bach1.JPG" alt="Project 1">
+        <h3>Bachelor’s Thesis</h3>
+    </div>
+    <div class="project" data-project="2">
+
+        <img src="images/Bachelor/Ministaden.JPG" alt="Project 2">
+        <h3>Project Two</h3>
+  
+    </div>
+    <div class="project" data-project="3">
+     
+        <img src="images/Square.webp" alt="Project 3">
+        <h3>Project Three</h3>
+    </div>
+
+  </div>
+</section>
+
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email me at: <a href="mailto:theetheodor@gmail.com">theetheodor@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Theodor Östling</p>
+  </footer>
+<div id="projectModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 id="modalTitle">Project Title</h2>
+    <p id="modalTech"><strong>Tech stack:</strong> …</p>
+    <p id="modalOverview">Overview goes here...</p>
+    <div id="modalImages"></div>
+    
+    <div id="modalLinks"></div> <!-- 🔗 Links go here -->
+  </div>
+</div>
+  <script src="script.js"></script>
+
+</div>
+</body>
+</html>
