@@ -90,7 +90,7 @@ const projects = {
     10: {
     title: "Hobby Game Project",
     overview: "This is a hobby project I’ve been working on for a few weeks, a 2D survival game built in Godot, where the goal is to last as many days as possible by leveling and building houses which holds different upgrades. The game features state machines for enemy behavior, procedural world generation, and a structured class system tailored for game development.",
-    images: ["images/mygame/Game1.png","images/mygame/Game2.png","images/mygame/gamestates.png","images/mygame/gameTalents.png","images/mygame/gamskill.png",],
+    images: ["images/mygame/GameProject.webm","images/mygame/Game1.png","images/mygame/Game2.png","images/mygame/gamestates.png","images/mygame/gameTalents.png","images/mygame/gamskill.png",],
     tech: "GD-Script, Godot, State Machines, World Generation",
     links: [ ]
   },
@@ -119,12 +119,23 @@ document.querySelectorAll(".project").forEach(proj => {
 
     // Images
     modalImages.innerHTML = "";
-    project.images.forEach(img => {
-      const el = document.createElement("img");
-      el.src = img;
-      el.style.maxWidth = "100%";
-      el.style.margin = "10px 0";
-      modalImages.appendChild(el);
+    project.images.forEach(file => {
+    let el;
+    if (file.endsWith(".mp4") || file.endsWith(".webm")) {
+        el = document.createElement("video");
+        el.src = file;
+        el.controls = true;        // adds play/pause buttons
+        el.style.maxWidth = "100%";
+        el.style.margin = "10px 0";
+        el.style.borderRadius = "8px";
+    } else {
+        el = document.createElement("img");
+        el.src = file;
+        el.style.maxWidth = "100%";
+        el.style.margin = "10px 0";
+        el.style.borderRadius = "8px";
+    }
+    modalImages.appendChild(el);
     });
 
     // Links

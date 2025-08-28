@@ -34,6 +34,7 @@ section {
  margin: 0 auto 60px auto;
 background: radial-gradient(circle, #c5c2c2, #ffffff);
   text-align: center;
+  border-radius: 20px;
 
 }
 
@@ -78,6 +79,7 @@ footer {
   flex-direction: column;
   justify-content: flex-end;
     aspect-ratio: 3/4;  /* all cards same shape */
+  cursor: pointer;   /* 🔹 makes it feel clickable */
 }
 
 .project img {
@@ -165,7 +167,14 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
   transition: background 0.3s ease;
 }
 
-
+#modalImages video {
+  display: block;
+  max-width: 100%;
+  margin: 15px auto;
+  border-radius: 80px;
+  box-shadow: 0 6px 25px rgba(0,0,0,0.25);
+    cursor: pointer;   /* 🔹 makes it feel clickable */
+}
 
 
 #modalLinks a:hover {
