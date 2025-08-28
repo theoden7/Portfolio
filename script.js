@@ -90,7 +90,7 @@ const projects = {
     10: {
     title: "Hobby Game Project",
     overview: "This is a hobby project I’ve been working on for a few weeks, a 2D survival game built in Godot, where the goal is to last as many days as possible by leveling and building houses which holds different upgrades. The game features state machines for enemy behavior, procedural world generation, and a structured class system tailored for game development.",
-    images: ["images/mygame/GameProject.webm","images/mygame/Game1.png","images/mygame/Game2.png","images/mygame/gamestates.png","images/mygame/gameTalents.png","images/mygame/gamskill.png",],
+    images: ["images/mygame/GameProject.mp4","images/mygame/Game1.png","images/mygame/Game2.png","images/mygame/gamestates.png","images/mygame/gameTalents.png","images/mygame/gamskill.png",],
     tech: "GD-Script, Godot, State Machines, World Generation",
     links: [ ]
   },
