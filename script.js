@@ -81,7 +81,7 @@ const projects = {
     9: {
     title: "Image Recreation",
     overview: "For a school project, I worked in a team of two to implement an image reproduction algorithm using MATLAB and Python. We built a custom image database by web scraping 701 World of Warcraft mount icons, then used a tile-based approach to reconstruct Images by matching tiles with the closest Images in the database (based on color in the CIELAB space). To optimize performance, we tested two methods: k-means clustering to reduce the dataset and a color-distance-based selection strategy. The results were evaluated with quality metrics such as S-CIELAB, MSE/SNR, and SSIM.",
-    Images: ["Images/imdatabase/10_opt2.jpg","Images/imdatabase/700.jpg","Images/imdatabase/cloud_serpent.png","Images/imdatabase/Op1_50_3OlikaBilder.jpg","Images/imdatabase/Opt2_50_3OlikaBilder.jpg"],
+    Images: ["Images/imdatabase/10_opt2.jpg","Images/imdatabase/700.jpg","Images/imdatabase/cloud_serpent.png","Images/imdatabase/Op1_50_3OlikaBilder.jpg","Images/imdatabase/opt2_50_3OlikaBilder.jpg"],
     tech: "Matlab",
     links: [
       { label: "GitHub", url: "https://github.com/Theodenlll7/TNM097_Projekt_BRP", },
@@ -92,6 +92,14 @@ const projects = {
     overview: "This is a hobby project I’ve been working on for a few weeks, a 2D survival game built in Godot, where the goal is to last as many days as possible by leveling and building houses which holds different upgrades. The game features state machines for enemy behavior, procedural world generation, and a structured class system tailored for game development.",
     Images: ["Images/mygame/GameProject.mp4","Images/mygame/Game1.png","Images/mygame/Game2.png","Images/mygame/gamestates.png","Images/mygame/gameTalents.png","Images/mygame/gamskill.png",],
     tech: "GD-Script, Godot, State Machines, World Generation",
+    links: [ ]
+  },
+
+      11: {
+    title: "3D Modeling & Procedural Project",
+    overview: "As part of a collaborative course project, I worked with a teammate to develop a roguelike game in Unity using C#. We designed and animated 3D characters and enemies in Blender with skeleton rigs and keyframe animation, and implemented simple AI agents through Unity’s built-in tools. The game featured procedurally generated maps created with Perlin noise, while Poisson Disk Sampling was used for natural tree placement. This project was super fun!",
+    Images: ["Images/3dgame/3dgame6.png","Images/3dgame/3dgame.png","Images/3dgame/3dgame2.png","Images/3dgame/3dgame3.png","Images/3dgame/3dgame4.png","Images/3dgame/3dgame5.png",],
+    tech: "Unity, Blender, C#, World Generation",
     links: [ ]
   },
 };
