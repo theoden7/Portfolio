@@ -5,7 +5,7 @@ const projects = {
   1: {
     title: "Bachelor’s Thesis – Location-Based GPS Game",
     overview: "This project, created in a team of 5 people, explores how modern technology can be used to counteract sedentary lifestyles by encouraging physical activity and social interaction. The result is a GPS-based mobile game, developed in Unity with Mapbox and Firebase, where players solve a murder mystery by moving between real-world locations in Norrköping, similar to Pokémon GO. The game design, supported by a custom interface and visualized through Figma, requires players to walk to progress, showing the potential of gamified technology to promote movement and engagement",
-    Images: ["Images/Bachelor/registrering.jpg", "Images/Bachelor/login.jpg", "Images/Bachelor/Arrest.jpg","Images/Bachelor/Ledtråd1.1.jpg", "Images/Bachelor/Ministaden.jpg", "Images/Bachelor/userstats.jpg", "Images/Bachelor/bach1.jpg", "Images/Bachelor/NotesAndClue.jpg"],
+    Images: ["Images/Bachelor/registrering.jpg", "Images/Bachelor/login.jpg", "Images/Bachelor/Arrest.JPG","Images/Bachelor/Ledtråd1.1.JPG", "Images/Bachelor/Ministaden.JPG", "Images/Bachelor/userstats.jpg", "Images/Bachelor/bach1.JPG", "Images/Bachelor/NotesAndClue.JPG"],
     tech: "C#, Unity, Firebase, Mapbox, Photon",
     links: [
       { label: "GitHub", url: "https://github.com/Theodenlll7/KandidatProjekt_Unity", },
@@ -90,7 +90,7 @@ const projects = {
     10: {
     title: "Hobby Game Project",
     overview: "This is a hobby project I’ve been working on for a few weeks, a 2D survival game built in Godot, where the goal is to last as many days as possible by leveling and building houses which holds different upgrades. The game features state machines for enemy behavior, procedural world generation, and a structured class system tailored for game development.",
-    Images: ["Images/mygame/GameProject.mp4","Images/mygame/Game1.png","Images/mygame/Game2.png","Images/mygame/gamestates.png","Images/mygame/gameTalents.png","Images/mygame/gamskill.png",],
+    Images: ["Images/mygame/GameProject.mp4","Images/mygame/Game1.png","Images/mygame/Game2.png","Images/mygame/gamestates.png","Images/mygame/GameTalents.png","Images/mygame/gamskill.png",],
     tech: "GD-Script, Godot, State Machines, World Generation",
     links: [ ]
   },
